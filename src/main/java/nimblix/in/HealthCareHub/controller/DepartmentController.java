@@ -25,6 +25,6 @@ public class DepartmentController {
             @Valid @RequestBody Department department) {
 
         Department updated = departmentService.updateDepartment(id, department);
-        return ResponseEntity.ok(updated);
+        return ResponseEntity.ok(updated) ;
     }
 }
