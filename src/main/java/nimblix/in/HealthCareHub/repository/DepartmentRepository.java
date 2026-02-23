@@ -8,4 +8,6 @@ import nimblix.in.HealthCareHub.model.Department;
 
 @Repository
 public interface DepartmentRepository extends JpaRepository<Department, Long> {
+
+
 }

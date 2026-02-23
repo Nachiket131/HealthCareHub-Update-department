@@ -9,4 +9,6 @@ public interface DepartmentService {
     Department getDepartment(Long id);
 
     Department updateDepartment(Long id, Department department);
+
+
 }
